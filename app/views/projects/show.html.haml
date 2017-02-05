@@ -1,7 +1,3 @@
 %h1=@project.name
 %p=@project.description
 %p=@project.amount
-
-= link_to "Tous les projets", projects_path
-= link_to " Modifier le projet" ,edit_project_path(@project)
-= link_to " Supprimer le projet" ,project_path(@project), method: :delete, data: {confir: "Etes vous sur?"}
