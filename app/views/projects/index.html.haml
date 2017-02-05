@@ -1,0 +1,5 @@
+
+- @projects.each do |project|
+        %h2= link_to project.name,project
+        %p= time_ago_in_words(project.created_at)
+        %p= truncate(project.description,length:50)
