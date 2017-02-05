@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+ source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -12,6 +12,8 @@ gem 'rails', '~> 5.0.1'
  gem 'devise'
  gem 'twitter-bootstrap-rails'
  gem 'devise-bootstrap-views'
+ gem 'simple_form', '~> 3.4'
+ gem 'haml', '~> 4.0', '>= 4.0.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
