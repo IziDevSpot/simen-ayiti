@@ -14,6 +14,7 @@ gem 'rails', '~> 5.0.1'
  gem 'devise-bootstrap-views'
  gem 'simple_form', '~> 3.4'
  gem 'haml', '~> 4.0', '>= 4.0.7'
+ gem 'paperclip', '~> 5.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets

@@ -1,3 +1,7 @@
+= image_tag @project.image.url
 %h1=@project.name
 %p=@project.description
 %p=@project.amount
+
+= link_to "Tous les Projets", projects_path
+= link_to "Modifier", edit_project_path 
